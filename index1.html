@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SUNPETS | Bienestar para tu Mascota</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+}
+
+header{
+    background:linear-gradient(90deg,#ff7a00,#ff3c00);
+    color:white;
+    padding:40px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:32px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:16px;
+}
+
+.section{
+    padding:60px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.section h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#333;
+}
+
+.info-box{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    margin-bottom:20px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    padding:20px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.price{
+    color:#ff3c00;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:#ff7a00;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.contact{
+    text-align:center;
+}
+
+.social{
+    margin-top:15px;
+}
+
+.social a{
+    text-decoration:none;
+    margin:0 10px;
+    color:#ff3c00;
+    font-weight:600;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px;
+    border-radius:50%;
+    font-size:20px;
+    text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🐾 SUNPETS</h1>
+    <p>Productos y accesorios premium para el bienestar de tu mascota</p>
+</header>
+
+<section class="section">
+    <h2>Misión</h2>
+    <div class="info-box">
+        Brindar productos de alta calidad para mascotas, garantizando bienestar,
+        comodidad y felicidad, ofreciendo soluciones innovadoras y accesibles
+        para nuestros clientes.
+    </div>
+
+    <h2>Visión</h2>
+    <div class="info-box">
+        Ser una empresa líder en el mercado nacional de accesorios y productos
+        para animales domésticos, reconocida por nuestra calidad, compromiso y
+        excelencia en el servicio.
+    </div>
+
+    <h2>Valores Corporativos</h2>
+    <div class="info-box">
+        ✔ Responsabilidad<br>
+        ✔ Amor por los animales<br>
+        ✔ Calidad<br>
+        ✔ Compromiso<br>
+        ✔ Innovación
+    </div>
+</section>
+
+<section class="section">
+    <h2>Productos Destacados</h2>
+    <div class="products">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1601758064221-6a5f3c8e1d5e" alt="Collar">
+            <h3>Collar Premium</h3>
+            <p>Material resistente y cómodo.</p>
+            <p class="price">$35.000</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1583511655826-05700442b31b" alt="Cama">
+            <h3>Cama Acolchada</h3>
+            <p>Máximo confort para tu mascota.</p>
+            <p class="price">$120.000</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee" alt="Juguete">
+            <h3>Juguete Interactivo</h3>
+            <p>Diversión y estimulación diaria.</p>
+            <p class="price">$28.000</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section contact">
+    <h2>Contacto</h2>
+    <p><strong>Email:</strong> sunpets@gmail.com</p>
+    <p><strong>Teléfono:</strong> 301 000 0000</p>
+
+    <div class="social">
+        <p><strong>Redes Sociales:</strong></p>
+        <a href="#">Instagram: @sunpets</a>
+        <a href="#">Facebook: SUNPETS</a>
+        <a href="#">TikTok: @sunpets</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 SUNPETS - Todos los derechos reservados
+</footer>
+
+<a href="https://wa.me/573010000000" class="whatsapp">💬</a>
+
+</body>
+</html>
